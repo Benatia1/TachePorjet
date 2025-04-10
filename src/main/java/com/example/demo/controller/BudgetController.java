@@ -25,4 +25,10 @@ public class BudgetController {
     public double getSolde(){
         return budgetService.getSoldeRestant();
     }
+
+    @GetMapping("/all")
+    public double getRevenue(){
+        return budgetService.getTotalRevenu();
+    }
+
 }

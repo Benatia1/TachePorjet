@@ -60,6 +60,12 @@
 			<version>1.18.30</version> <!-- ou dernière version -->
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.0.33</version> <!-- ✅ utilise une version stable -->
+			<scope>runtime</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
