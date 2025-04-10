@@ -23,7 +23,7 @@ public class TachController {
     public ResponseEntity<TacheEntity> AddTache(@RequestBody TacheEntity tache){
         return ResponseEntity.ok(service.creeTache(tache));
     }
-
+//Ajouter une requête pour avoir les tâche par état
     @GetMapping("/allTache")
     public List<TacheEntity> getAllTache(){
         return service.getAll();
